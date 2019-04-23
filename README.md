@@ -19,6 +19,8 @@ Based on [SparkFun settings](https://github.com/sparkfun/SparkFun_Eagle_Settings
 * **F8** - Copy
 * **F10** - Grid inch 0.05 / Grid alt inch 0.005
 * **Alt + F10** - Grid mm 1 / Grid alt mm 0.1
+* **Control + Shift + S** - Toggle to Schematics view
+* **Control + Shift + B** - Toggle to Board view
 
 ### LBR (EAGLE Library Editor)
 * **Control + E** - Edit
@@ -107,7 +109,6 @@ Display keys: 1 = sane display, 0 = display all
 * **Control + E** - DRC
 * **Control + R** - Rats
 * **Control + Shift + R** - Route
-* **Control + Shift + S** - Split
 * **Control + U** - RipUp
 * **Control + Y** - Polygon
 
