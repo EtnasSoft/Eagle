@@ -30,7 +30,8 @@ Assign AF7 'Group';
 Assign F8 'Copy';
 Assign F10 'Grid inch 0.05 on; Grid alt inch 0.005;';
 Assign AF10 'Grid mm 1 on; Grid alt mm 0.1;';
-
+Assign S+C+S 'Edit .sch'
+Assign S+C+B 'Edit .brd'
 
 Grid inch 0.05 on;
 Grid alt inch 0.005;
@@ -170,8 +171,9 @@ ASSIGN   C+S+M 'Mark';
 ASSIGN   C+S+N 'Name';
 ASSIGN     C+Q 'Show';
 ASSIGN     C+T 'Text';
-ASSIGN     C+W 'Wire';
+ASSIGN     C+W 'Net';
 ASSIGN     A+X 'Cut';
+ASSIGN   C+S+C 'Copy';
 ###### Common keys
 
 # Schematic specific keys
@@ -237,15 +239,13 @@ ASSIGN     C+M 'Move';
 ASSIGN   S+C+M 'Mark';
 ASSIGN     C+Q 'Show';
 ASSIGN     C+T 'Text';
-ASSIGN     C+W 'Wire';
+ASSIGN     C+W 'Route';
 ASSIGN     A+X 'Cut';
 ###### Common keys
 
 # Layout specific keys
 ASSIGN     C+E 'DRC';
 ASSIGN     C+R 'Rats';
-ASSIGN   C+S+R 'Route';
-ASSIGN   C+S+S 'Split';
 ASSIGN     C+U 'RipUp';
 ASSIGN     C+Y 'Polygon';
 
@@ -262,6 +262,4 @@ ASSIGN   A+C+3 'Display None Top Bottom Pads Vias Unrouted Dimension tPlace bpla
 # Misc good things
 
 # If you hold down the control key, it pans. Might want to turn this off if you have a good mouse.
-SET Interface.UseCtrlForPanning 1
-
-
+SET Interface.UseCtrlForPanning 0
